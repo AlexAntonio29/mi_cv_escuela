@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Nombre Apellido</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="name">Nombre Apellido</h1>
+      <p class="role">Rol deseado (ej. Desarrollador Web Junior)</p>
+      <nav class="nav">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#formacion">Formación</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2>Sobre mí</h2>
+        <p>
+          Escribe aquí un resumen breve (3–5 líneas) sobre tu perfil, intereses en TI
+          y objetivos profesionales.
+        </p>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <h3>Habilidades técnicas</h3>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Git / GitHub</li>
+          <li>Docker (básico)</li>
+        </ul>
+
+        <h3>Habilidades blandas</h3>
+        <ul class="skills-list">
+          <li>Trabajo en equipo</li>
+          <li>Comunicación</li>
+          <li>Organización</li>
+          <li>Resolución de problemas</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="formacion" class="section">
+      <div class="container">
+        <h2>Formación académica</h2>
+        <article class="item">
+          <h3>Nombre del programa / carrera</h3>
+          <p>Institución educativa · Año de inicio – Año de fin (o Actualidad)</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <article class="item">
+          <h3>Nombre del proyecto 1</h3>
+          <p>Breve descripción del proyecto (1–3 líneas).</p>
+          <a href="https://github.com/usuario/proyecto1" target="_blank" rel="noopener noreferrer">
+            Ver en GitHub
+          </a>
+        </article>
+        <article class="item">
+          <h3>Nombre del proyecto 2</h3>
+          <p>Breve descripción del proyecto (1–3 líneas).</p>
+          <a href="https://github.com/usuario/proyecto2" target="_blank" rel="noopener noreferrer">
+            Ver en GitHub
+          </a>
+        </article>
+
+        <p id="contador-proyectos" class="project-counter">
+          Total de proyectos: <span>2</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p>Email: <a href="mailto:tu.correo@ejemplo.com">tu.correo@ejemplo.com</a></p>
+        <ul class="social-list">
+          <li>
+            <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </li>
+          <!-- Agrega otras redes profesionales si las tienes -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <button id="btn-ir-arriba" class="btn">Ir al inicio</button>
+      <p>&copy; <span id="anio-actual"></span> Nombre Apellido</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
